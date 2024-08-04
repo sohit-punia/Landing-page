@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #577B8D;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.name{
+    padding-left: 150px;
+}
+.name h1{
+    font-size:35px ;
+    color: yellow;
+}
+
+.options {
+    font-size: 25px;
+    color: white;
+    gap: 5px;
+}
+.options a{
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+}
+.options i{
+    padding-top: 6px;
+    padding-left: 6px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    color: #000;
+}
+section{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.intro{
+    width: 500px;
+    height: 500px;
+
+}
+.intro h1{
+    color: yellow;
+    font-size: 70px;
+}
+.intro h2{
+    color: white;
+    font-size: 60px;
+}
+.intro p{
+    color: white;
+    font-size: 20px;
+}
+.intro input{
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    padding-left: 40px;
+}
+.intro button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    font-size: 17px;
+}
+.intro i{
+   font-size: 30px;
+    color: yellow;
+   margin-left: 10px;
+
+}
+.photo img{
+    width: 500px;
+    height: 500px;
+   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+   border: 7px solid yellow;
+ 
+}
+.aboutcourses{
+    margin-top: 60px;
+    height:600px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.courses{
+    height: 500px;
+    width: 300px;
+    /* border: 2px solid yellow; */
+    background-color: wheat;
+    border-radius: 20px;
+    background-size: cover;
+}
+.courses img{
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+}
+.courses h1{
+    text-align: center;
+}
+.courses p{
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    color: white;
+    color: #000;
+}
+.courses button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+   font-size: 16px;
+    background-color: yellow;
+    border: none;
+    margin-top: 15px;
+    margin-left: 90px;
+    text-align: center;
+}
+/* -------------- */
+.contact-box {
+    background-color: wheat;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    margin-left: 350px;
+}
+.contact-box h2 {
+    margin: 0 0 15px;
+    padding: 0;
+    text-align: center;
+}
+.contact-box form .input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+.contact-box form .input-box input,
+.contact-box form .input-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    border-radius: 5px;
+    resize: none;
+}
+.contact-box form .input-box label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0 5px;
+    background: #fff;
+    color: #666;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.contact-box form .input-box input:focus ~ label,
+.contact-box form .input-box textarea:focus ~ label,
+.contact-box form .input-box input:valid ~ label,
+.contact-box form .input-box textarea:valid ~ label {
+    top: -12px;
+    left: 10px;
+    color: #333;
+    font-size: 12px;
+}
+.contact-box form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-box form button:hover {
+    background: #555;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    /* color: yellow; */
+    color: white;
+   }
